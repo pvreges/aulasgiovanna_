@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+
+      <h1>Calculadora de Média</h1>
+      <p>Digite as cinco notas do aluno:</p>
+
+    <form>
+        <label for="n1">Nota 1:</label>
+        <input id="n1" type="number" min="0" max="10"
+        step="0.1">
+        <br><br>
+
+        <label for="n2">Nota 2:</label>
+        <input id="n2" type="number" min="0" max="10"
+        step="0.1">
+        <br><br>
+        
+        <label for="n3">Nota 3:</label>
+        <input id="n3" type="number" min="0" max="10"
+        step="0.1">
+        <br><br>
+
+        <label for="n4">Nota 4:</label>
+        <input id="n4" type="number" min="0" max="10"
+        step="0.1">
+        <br><br>
+
+        <label for="n5">Nota 5:</label>
+        <input id="n5" type="number" min="0" max="10"
+        step="0.1">
+        <br><br>
+
+        <button type="button"
+        onclick="calcularMedia()">Calcular média</button>
+
+    </form>
+
+    <h3>Resultado</h3> 
+    <p>
+        A média final foi: <span id="media">-</span>
+    </p>
+  
+
+
+    <script src="../js/media.js">
+
+    </script>
+</body>
+</html>

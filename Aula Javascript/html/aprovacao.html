@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovação</title>
+</head>
+<body>
+      <h1>Confira o status de aprovação</h1>
+      <p>Digite o nome do(a) aluno e a sua média.</p>
+
+    <form>
+        
+    <label for="nome">Nome: </label>
+    <input id="nome" type="text">
+    <br><br>
+
+    <label for="media">Média: </label>
+    <input id="media" type="number" min="0" max="10" step="0.1">
+    </form>
+
+<h3>Resultado</h3>
+<button type="button"
+        onclick="verAprovacao()">Status</button>
+<p>
+    <span id="nomeResultado">-</span> está <span id="resultado">-</span>
+    
+</p>
+
+ <script src="../js/aprovacao.js"></script>
+
+</body>
